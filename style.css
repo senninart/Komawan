@@ -1,0 +1,97 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-weight: bold;
+	font-family: Montserrat;
+	max-width: 1920px;
+	margin: auto;
+	/*height: 700px;*/
+	background: white;
+}
+
+nav{
+	display: fixed;
+	flex-direction: column;
+	position: fixed;
+	width: 229px;
+	background: #212523;
+	top: 0;
+	bottom: 0;
+	/*overflow-y: scroll;*/
+}
+
+nav .top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+nav .top img{
+	width: 120px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+nav .top h1{
+	color: white;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+/*span.line{
+	display: block;
+	width: 214px;
+	height: 1px;
+	background: white;
+}*/
+
+nav .bot .nav-links a{
+	display: block;
+	padding: 18px;
+	text-decoration: none;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+}
+
+.bot .nav-links a:hover{
+	background: #1c1e1d;
+}
+
+.kanan{
+	margin-left: 240px;	
+}
+
+.keluar{
+	position: fixed;
+	width: 229px;
+	bottom: 0;
+}
+
+.card{
+	flex-direction: row;
+}
+.card img{
+	width: 35%;
+}
+
+::-webkit-scrollbar{
+	width: 5px;
+}
+
+::-webkit-scrollbar-track{
+	background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb{
+	background: #DCDCDC;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background: #999;
+}
